@@ -1,0 +1,65 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f8f9;
+}
+
+.cabecalho {
+    color: #ffffff;
+    background-color: #1e3d59;
+    text-align: center;
+    padding: 30px;
+}
+
+.cabecalho h3 {
+    color: #ffc107;
+}
+
+p.alinha {
+    text-align: right;
+}
+
+.img-agro {
+    width: 300px;
+}
+
+.br-3 {
+    border-radius: 15px;
+}
+
+.img-card {
+    max-height: 250px;
+    object-fit: cover;
+}
+
+.img-slide {
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.footer {
+    background-color: #1e3d59;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+.btn-primary {
+    background-color: #31708e;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #245269;
+}
+
+.form-label {
+    font-weight: bold;
+}
