@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energia Rural</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="cabecalho">
+        <h1>AGRINHO 2025</h1>
+        <h3>Festejando Conexão Campo Cidade</h3>
+    </section>
+
+    <nav class="navbar navbar-expand-lg bg-success">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="index.html">Página Inicial |</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" href="energia.html">Energia Rural |</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="agua.html">Acessibilidade a Água |</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="producao.html">Produção</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="./assets/image/energia site.jpeg" alt="Imagem representativa de energia rural" class="img-fluid br-3">
+            </div>
+            <div class="col-md-6 d-flex align-items-center">
+                <div>
+                    <h2>Energia na Zona Rural</h2>
+                    <p>
+                        A energia rural é essencial para o desenvolvimento das atividades agrícolas e a melhoria da qualidade de vida no campo.
+                        Muitas áreas ainda enfrentam dificuldades no acesso à eletricidade, especialmente em regiões remotas. A expansão das redes
+                        elétricas e o uso de fontes renováveis, como a solar, têm ajudado a reduzir esse problema. A eletrificação rural permite
+                        mecanização, irrigação e acesso à tecnologia, contribuindo para a produtividade e permanência das famílias no campo.
+                    </p>
+                    <form>
+                        <div class="mb-3">
+                            <label for="energiaDuvida" class="form-label">Dúvidas sobre energia rural</label>
+                            <textarea class="form-control" id="energiaDuvida" rows="3"></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <label for="energiaTipo" class="form-label">Tipo de energia que você utiliza:</label>
+                            <select class="form-select" id="energiaTipo">
+                                <option selected>Escolha uma opção</option>
+                                <option value="1">Elétrica convencional</option>
+                                <option value="2">Solar</option>
+                                <option value="3">Gerador a diesel</option>
+                                <option value="4">Outra</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="nomePessoa" class="form-label">Seu nome:</label>
+                            <input type="text" class="form-control" id="nomePessoa">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Todos os direitos reservados para Agrinho 2025 - Festejando a conexão campo cidade.</p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
