@@ -1,19 +1,19 @@
 body {
     padding: 0;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #f0f8ff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff8f0;
 }
 
 .cabecalho {
-    color: white;
-    background-color: #0d0d0d;
+    color: #ffffff;
+    background-color: #5e17eb; /* roxo vibrante */
     text-align: center;
     padding: 30px;
 }
 
 .cabecalho h3 {
-    color: #ffcc00;
+    color: #ffdd33; /* amarelo vibrante */
 }
 
 p.alinha {
@@ -36,17 +36,20 @@ p.alinha {
     max-height: 400px;
 }
 
+/* Rodapé */
 .footer {
-    background-color: #0d0d0d;
+    background-color: #5e17eb;
     color: white;
     text-align: center;
     padding: 15px;
     margin-top: 30px;
 }
 
+/* Estilo dos cartões */
 .card {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
     transition: transform 0.3s;
+    border: none;
 }
 
 .card:hover {
@@ -54,11 +57,25 @@ p.alinha {
 }
 
 .btn-primary {
-    background-color: #28a745;
-    border-color: #218838;
+    background-color: #ff4d4d; /* vermelho vibrante */
+    border-color: #ff3333;
 }
 
 .btn-primary:hover {
-    background-color: #218838;
-    border-color: #1e7e34;
+    background-color: #e60000;
+    border-color: #cc0000;
+}
+
+/* Navbar personalizada com cor vibrante */
+.navbar {
+    background-color: #17a2b8 !important; /* azul vibrante */
+}
+
+.navbar .nav-link {
+    color: white;
+}
+
+.navbar .nav-link.active {
+    font-weight: bold;
+    text-decoration: underline;
 }
